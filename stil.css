@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 10% 20% 0;
+    color: black;
+}
+button {
+    background-color: antiquewhite;
+    border: 1px solid rgb(184, 49, 48);
+    border-radius: 5px;
+    font-weight: bold;
+    color:rgb(184, 49, 48);
+    width: 100px;
+    height: 35px;
+}
+button:hover {
+    background-color: rgb(184, 49, 48);
+    color:white
+}
+input {
+    background-color: white;
+    border: 1px solid rgb(49, 49, 49);
+    border-width: thin;
+    border-radius: 5px;
+    outline: none;
+    text-indent: 5%;
+    width:200px;
+    height:30px;
+}
+a {
+    color: rgb(184, 49, 48);
+    text-align: right;
+}
+a:visited {
+    color: rgb(184, 49, 48);
+}
+ul {
+    font-style: normal;
+    padding: 0;
+    margin-top: 5%;
+    list-style-type: none;
+}
+li{
+    background-color: white;
+    display: block;
+    padding: 20px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.stavke {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.stavke li {
+    width: 45%;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.vrh_segment {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.vrh_segment a {
+    justify-content: flex-end;
+    display: flex;
+}
+#remove {
+    float: right;
+}
